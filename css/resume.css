@@ -17,6 +17,31 @@ body {
   }
 }
 
+.btn-primary {
+  border-color: rgb(127,140,180);
+  /*background: rgb(127,140,180);*/
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background: rgb(127,140,180);
+}
+
+
+/*************************************************
+ *  Button Outlines
+ **************************************************/
+
+
+.btn-primary.btn-outline {
+  color: rgb(127,140,180);
+  border-color: rgb(127,140,180);
+}
+
+
 h1,
 h2,
 h3,
